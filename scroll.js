@@ -1,61 +1,61 @@
 
-$('#home').addClass("active");
+$('home').addClass("active");
 
-$("#home").click(function() {
+$("#home-link").click(function() {
     $('html, body').animate({
-        scrollTop:        $("#one").offset().top-666
+        scrollTop:        $("#home").offset().top-666
     }, 1000);
     return false;
 });
 
-$("#about").click(function() {
+$("#about-link").click(function() {
     $('html, body') .animate({
-        scrollTop:        $("#two").offset().top-1012
+        scrollTop:        $("#about").offset().top-1012
     }, 1000);
     return false;
 });
 
-$("#next").click(function() {
+$("#next-link").click(function() {
     $(' html,body') .animate({
-        scrollTop:        $("#three").offset().top
+        scrollTop:        $("#upcoming").offset().top
     }, 1000);
     return false;
 });
 
-$("#hr").click(function() {
+$("#hr-link").click(function() {
     $(' html,body') .animate({
-        scrollTop:        $("#four").offset().top-100
+        scrollTop:        $("#headshotresume").offset().top-100
     }, 1000);
     return false;
 });
 
-$("#gallery").click(function() {
+$("#gallery-link").click(function() {
     $(' html,body') .animate({
-        scrollTop:        $("#five").offset().top
+        scrollTop:        $("#gallery").offset().top
     }, 1000);
     return false;
 });
 
-$("#media").click(function() {
+$("#media-link").click(function() {
     $(this).addClass("active");
     $('html,body ') .animate({
-        scrollTop:        $("#six").offset().top
+        scrollTop:        $("#media").offset().top
     }, 1000);
     return false;
 });
 
-$("#music").click(function() {
+$("#music-link").click(function() {
     $(this).addClass("active");
     $('html,body ') .animate({
-        scrollTop:        $("#seven").offset().top
+        scrollTop:        $("#music").offset().top
     }, 1000);
     return false;
 });
 
-$("#contact").click(function() {
+$("#contact-link").click(function() {
     $(this).addClass("active");
     $('html,body ') .animate({
-        scrollTop:        $("#eight").offset().top
+        scrollTop:        $("#contact").offset().top
     }, 1000);
     return false;
 });
