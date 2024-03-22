@@ -195,7 +195,6 @@ html {
     text-align: center;
     font-family: 'penna';
     color: darkslategray;
-    border: 2px solid red;
 }
 @media (min-width: 1300px) {
     .mobile-column {
