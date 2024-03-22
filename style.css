@@ -65,7 +65,7 @@ html {
 .nav-links {
     display: none;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
     .nav-links {
         width: 60%;
         align-items: center;
@@ -231,7 +231,7 @@ html {
 #d2b {
     display: none;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
     
     #cats {
         min-width: 24%;
