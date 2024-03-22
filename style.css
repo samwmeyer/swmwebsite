@@ -52,7 +52,7 @@ html {
     .nav-bar {
         display: flex;
         font-weight: normal;
-        padding: 14px 20px;
+        padding: 19px 26px;
     }
 }
 .nav-title {
@@ -101,7 +101,7 @@ html {
 .home-page-content {
     display: flexbox;
     justify-content: space-evenly;
-    padding-top: 74px;
+    padding-top: 82px;
 }
 @media (min-width: 1300px) {
     .home-page-content {
@@ -406,7 +406,7 @@ html {
     font-family: 'avenir-light';
     font-size: large;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 20px;
     padding-top: 62px;
     margin-bottom: 40px;
     border-radius: 4px;
@@ -462,7 +462,8 @@ html {
     font-weight: bold;
     background-color: rgba(250, 250, 210, 0.4);
     padding: 16px 0;
-    margin: 32px 0 0 0;
+    margin: 20px 0;
+    margin-top: 80px;
     color: black;
     box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
 }
@@ -471,7 +472,6 @@ html {
     font-family: 'avenir-light';
     font-size: large;
     width: 100%;
-    padding-top: 62px;
     margin: auto;
     border-radius: 4px;
 }
