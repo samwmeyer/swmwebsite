@@ -170,7 +170,7 @@ html {
     font-family: 'avenir-light';
     font-size: large;
     width: 80%;
-    padding: 60px;
+    padding: 40px;
     margin: auto;
     padding-top: 124px;
     margin-bottom: -110px;
@@ -445,9 +445,10 @@ html {
     border-radius: 4px;
 }
 .songs {
-    display: flex;
+    display: flexbox;
     justify-content: space-evenly;
     padding: 100px 0;
+    
 }
 .song-div {
     width: 30%;
