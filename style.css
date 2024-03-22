@@ -51,13 +51,13 @@ html {
     vertical-align: middle;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
     box-sizing: border-box;
 }
 @media (min-width: 1300px) {
     .nav-bar-contents {
         display: flex;
         width: 80% auto;
+        padding: 20px 80px;
     }
 }
 .nav-title {
@@ -93,10 +93,15 @@ html {
 /*--------------------------------------------------HOME PAGE-------------------------------------------*/
 
 .home-page-content {
-    display: flex;
+    display: flexbox;
     justify-content: space-evenly;
     padding-top: 126px;
     padding-bottom: 40px;
+}
+@media (min-width: 1300px) {
+    .home-page-content {
+        display: flex;
+    }
 }
 .left-column {
     width: 46%;
