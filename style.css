@@ -58,7 +58,7 @@ html {
 .nav-title {
     font-size: 180%;
     transition: 0.5s;
-    margin: 0 auto;
+    margin: auto;
 }
 @media (min-width: 1300px) {
     .nav-title {
@@ -197,6 +197,7 @@ html {
     margin: auto;
     text-align: center;
     font-family: 'penna';
+    font-weight: bold;
     color: darkslategray;
 }
 @media (min-width: 1300px) {
