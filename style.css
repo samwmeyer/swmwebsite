@@ -292,7 +292,7 @@ html {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
 }
 .show-text {
-    padding: 36px;
+    padding-top: 36px;
     font-size: x-large;
     text-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.2);
 }
