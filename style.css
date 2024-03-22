@@ -467,7 +467,7 @@ html {
     font-weight: bold;
     background-color: rgba(250, 250, 210, 0.4);
     padding: 16px 0;
-    margin: 32px 0;
+    margin: 32px 0 0 0;
     color: black;
     box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
 }
