@@ -380,7 +380,7 @@ html {
     background-color: rgba(0, 0, 128, 0.6);
     transition: 0.4s;
     margin-top: 20px;
-    padding: 20px;
+    padding: 4px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     text-decoration: none;
     font-size: x-small;
@@ -390,6 +390,7 @@ html {
 @media (min-width: 1300px) {
     .label {
         font-size: large;
+        padding: 20px;
     }
 }
 .label:hover {
