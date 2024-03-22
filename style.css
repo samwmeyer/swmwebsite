@@ -47,12 +47,17 @@ html {
 }
 .nav-bar-contents {
     width: 80% auto;
-    display: flex;
+    display: flexbox;
     vertical-align: middle;
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
     box-sizing: border-box;
+}
+@media (min-width: 1300px) {
+    .nav-bar-contents {
+        display: flex;
+    }
 }
 .nav-title {
     font-size: 300%;
