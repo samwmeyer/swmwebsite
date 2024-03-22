@@ -310,8 +310,13 @@ html {
 }
 .show-text {
     padding-top: 36px;
-    font-size: x-large;
+    font-size: large;
     text-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 1300px) {
+    .show-text {
+        font-size: x-large;
+    }
 }
 
 /*------------------------------------------HEADSHOT & RESUME----------------------------------------------------------*/
@@ -371,8 +376,14 @@ html {
     padding: 20px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     text-decoration: none;
+    font-size: x-small;
     color: lightgrey;
     display: inline-block;
+}
+@media (min-width: 1300px) {
+    .label {
+        font-size: large;
+    }
 }
 .label:hover {
     transform: scale(1.02);
