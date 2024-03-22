@@ -103,6 +103,8 @@ html {
     display: flexbox;
     justify-content: space-evenly;
     padding-top: 82px;
+    width: 100%;
+    margin: auto;
 }
 @media (min-width: 1300px) {
     .home-page-content {
