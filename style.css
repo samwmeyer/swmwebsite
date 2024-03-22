@@ -69,6 +69,11 @@ html {
     justify-content: space-evenly;
     font-size: x-large;
 }
+@media (max-width: 1000px) {
+    .nav-links {
+        display: none;
+    }
+}
 .nav-bar a {
     color: lightblue;
     text-decoration: none;
