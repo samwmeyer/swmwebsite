@@ -188,6 +188,11 @@ html {
     margin-bottom: -96px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
 }
+@media (min-width: 1300px) {
+    .mobile-column {
+        display: none;
+    }
+}
 
 /*------------------------------------------ABOUT----------------------------------------------------------*/
 #about-me-title {
