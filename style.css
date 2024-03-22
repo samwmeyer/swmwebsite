@@ -354,7 +354,7 @@ html {
     max-height: 300px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
     transition-duration: 0.5s;
-    margin: 8px;
+    margin: 8px 0px;
 }
 .img-chunk {
     text-decoration: none;
