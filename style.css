@@ -44,25 +44,19 @@ html {
     font-family: 'penna';
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     z-index: 1;
-}
-.nav-bar-contents {
-    width: 94% auto;
+    border: 2px solid red;
     display: flexbox;
-    vertical-align: middle;
-    justify-content: space-between;
-    box-sizing: border-box;
+    justify-content: space-around;
 }
 @media (min-width: 1300px) {
-    .nav-bar-contents {
+    .nav-bar {
         display: flex;
-        width: 80% auto;
-        padding: 20px 80px;
     }
 }
 .nav-title {
     font-size: 180%;
     transition: 0.5s;
-    margin: 0 auto;
+    border: 2px solid green;
 }
 @media (min-width: 1300px) {
     .nav-title {
@@ -75,10 +69,13 @@ html {
 }
 .nav-links {
     width: 100%;
-    align-items: center;
     display: flex;    
     justify-content: space-evenly;
+    vertical-align: middle;
     font-size: large;
+    border: 2px solid yellow;
+    margin: auto;
+    margin-right: 0;
 }
 @media (min-width: 1300px) {
     .nav-links {
