@@ -106,14 +106,20 @@ html {
     text-decoration: none;
 }
 .home-name {
-    font-size: 800%;
-    font-weight: bold;
-    font-family: 'england';
-    margin-top: 24%;
-    color: rgba(8, 3, 34, 0.73);
-    text-align: center;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+    display: none;
 }
+@media (min-width: 1000px) {
+    .home-name {
+        font-size: 800%;
+        font-weight: bold;
+        font-family: 'england';
+        margin-top: 24%;
+        color: rgba(8, 3, 34, 0.73);
+        text-align: center;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+    }
+}
+
 .home-name-traits-1 {
     text-align: center;
     font-size: 360%;
