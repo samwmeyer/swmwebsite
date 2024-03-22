@@ -140,14 +140,10 @@ html {
         width: 46%;
         text-align: center;
         font-family: 'penna';
-        height: auto;
+        padding-top: 100px;
         color: darkslategray;
     }
 }
-@media (min-width: 1300px) {
-    
-}
-
 .home-name-traits-1 {
     text-align: center;
     font-size: 360%;
@@ -418,11 +414,9 @@ html {
     text-decoration: none;
     color: lightcyan;
     position: relative;
-    z-index: 10;
 }
 .img-chunk:hover img{
     transform: scale(1.06);
-    z-index: 100;
 }
 .img-chunk .img-desc {
     position: absolute;
