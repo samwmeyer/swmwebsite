@@ -61,22 +61,27 @@ html {
     }
 }
 .nav-title {
-    font-size: 300%;
+    font-size: 180%;
     transition: 0.5s;
+}
+@media (min-width: 1300px) {
+    .nav-title {
+        font-size: 300%;
+    }
 }
 .nav-title:hover {
     color: white;
     font-size: 320%;
 }
 .nav-links {
-    display: none;
+    width: 60%;
+    align-items: center;
+    display: flex;    
+    justify-content: space-evenly;
+    font-size: large;
 }
 @media (min-width: 1300px) {
     .nav-links {
-        width: 60%;
-        align-items: center;
-        display: flex;    
-        justify-content: space-evenly;
         font-size: x-large;
     }
 }
