@@ -73,6 +73,7 @@ html {
 .nav-links {
     width: 100%;
     display: flex;    
+    flex-wrap: wrap;
     justify-content: space-evenly;
     vertical-align: middle;
     font-size: medium;
