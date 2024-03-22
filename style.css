@@ -495,18 +495,21 @@ html {
     font-size: large;
     width: 100%;
     margin: auto;
-    margin-bottom: 60px;
-    padding: 62px 0 0 0;
-    border-radius: 4px;
 }
 .songs {
     display: flexbox;
-    justify-content: space-evenly;
-    padding: 100px 0;
+    width: 100%;
+    margin: auto;
 }
 @media (min-width: 1300px) {
     .songs {
         display: flex;
+        justify-content: space-evenly;
+        padding: 100px 0;
+    }
+    .music-page {
+        margin-bottom: 60px;
+        padding: 62px 0 0 0;
     }
 }
 .song-div {
