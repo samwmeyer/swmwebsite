@@ -108,8 +108,9 @@ html {
 .home-name {
     display: none;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
     .home-name {
+        display: inline;
         font-size: 800%;
         font-weight: bold;
         font-family: 'england';
@@ -240,16 +241,19 @@ html {
 @media (min-width: 1300px) {
     
     #cats {
+        display: inline;
         min-width: 24%;
         margin-right: 20px;
         box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
     }
     #anythinggoes {
+        display: inline;
         min-width: 24%;
         margin-right: 20px;
         box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
     }
     #d2b {
+        display: inline;
         max-width: 32%;
         height: 32%;
     }
@@ -454,7 +458,11 @@ html {
     display: flexbox;
     justify-content: space-evenly;
     padding: 100px 0;
-    
+}
+@media (min-width: 1300px) {
+    .songs {
+        display: flex;
+    }
 }
 .song-div {
     width: 30%;
