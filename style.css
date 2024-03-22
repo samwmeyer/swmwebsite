@@ -210,6 +210,7 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
 #cats {
     min-width: 24%;
     margin-right: 20px;
@@ -235,6 +236,17 @@ html {
 #d2b {
     max-width: 32%;
     height: 32%;
+}
+@media (max-width: 1000px) {
+    #cats {
+        display: none;
+    }
+    #anythinggoes {
+        display: none;
+    }
+    #d2b {
+        display: none;
+    }
 }
 #hg {
     max-width: 20%;
