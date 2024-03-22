@@ -518,10 +518,11 @@ html {
         margin-bottom: 60px;
         padding: 62px 0 0 0;
     }
+    .song-div {
+        width: 30%;
+    }
 }
-.song-div {
-    width: 30%;
-}
+
 audio::-webkit-media-controls-panel {
     background-color: lightskyblue;
 }
