@@ -78,6 +78,7 @@ html {
     display: flex;    
     justify-content: space-evenly;
     font-size: large;
+    margin: 0 6px;
 }
 @media (min-width: 1300px) {
     .nav-links {
