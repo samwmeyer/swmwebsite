@@ -46,7 +46,7 @@ html {
     z-index: 1;
 }
 .nav-bar-contents {
-    width: 80% auto;
+    width: 94% auto;
     display: flexbox;
     vertical-align: middle;
     align-items: center;
@@ -57,6 +57,7 @@ html {
 @media (min-width: 1300px) {
     .nav-bar-contents {
         display: flex;
+        width: 80% auto;
     }
 }
 .nav-title {
