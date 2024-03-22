@@ -75,7 +75,7 @@ html {
     display: flex;    
     justify-content: space-evenly;
     vertical-align: middle;
-    font-size: large;
+    font-size: medium;
     margin: auto;
     margin-right: 0;
 }
@@ -101,8 +101,7 @@ html {
 .home-page-content {
     display: flexbox;
     justify-content: space-evenly;
-    padding-top: 126px;
-    padding-bottom: 40px;
+    padding-top: 74px;
 }
 @media (min-width: 1300px) {
     .home-page-content {
@@ -176,23 +175,21 @@ html {
 }
 .home-pic {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
-    width: 84%;
-    border-radius: 2px;
+    width: 96.4%;
 }
 #epic-company-pic {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin-top: 40px;
     margin-bottom: -96px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
 }
 .mobile-column {
     width: 46%;
-        text-align: center;
-        font-family: 'penna';
-        padding-top: 100px;
-        color: darkslategray;
+    text-align: center;
+    font-family: 'penna';
+    color: darkslategray;
+    border: 2px solid red;
 }
 @media (min-width: 1300px) {
     .mobile-column {
@@ -211,7 +208,7 @@ html {
     font-family: 'avenir-light';
     font-size: large;
     width: 80%;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
     margin: auto;
     padding-top: 124px;
     margin-bottom: -110px;
