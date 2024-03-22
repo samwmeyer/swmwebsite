@@ -122,19 +122,30 @@ html {
     text-decoration: none;
 }
 .home-name {
+    display: inline;
+    font-size: 800%;
+    font-weight: bold;
+    font-family: 'england';
+    margin-top: 24%;
+    color: rgba(8, 3, 34, 0.73);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+}
+.left-column {
     display: none;
 }
 @media (min-width: 1300px) {
-    .home-name {
+    .left-column {
         display: inline;
-        font-size: 800%;
-        font-weight: bold;
-        font-family: 'england';
-        margin-top: 24%;
-        color: rgba(8, 3, 34, 0.73);
+        width: 46%;
         text-align: center;
-        text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+        font-family: 'penna';
+        height: auto;
+        color: darkslategray;
     }
+}
+@media (min-width: 1300px) {
+    
 }
 
 .home-name-traits-1 {
