@@ -169,8 +169,14 @@ html {
     font-size: 300%;
 }
 .right-column {
-    width: 40%;
+    width: 80%;
     text-align: center;
+    margin: auto;
+}
+@media (min-width: 1300px) {
+    .right-column {
+        width: 40%;
+    }
 }
 .home-pic {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
@@ -185,6 +191,7 @@ html {
 }
 .mobile-column {
     width: 46%;
+    margin: auto;
     text-align: center;
     font-family: 'penna';
     color: darkslategray;
