@@ -57,6 +57,7 @@ html {
 }
 .nav-title {
     margin: auto;
+    border: 2px solid red;
 }
 @media (min-width: 1200px) {
     .nav-title {
