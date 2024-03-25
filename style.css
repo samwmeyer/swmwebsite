@@ -56,14 +56,13 @@ html {
     }
 }
 .nav-title {
-    font-size: 180%;
-    transition: 0.5s;
     margin: auto;
 }
 @media (min-width: 1200px) {
     .nav-title {
         font-size: 300%;
         margin: 0;
+        transition: 0.5s;
     }
 }
 .nav-title:hover {
