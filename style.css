@@ -45,7 +45,6 @@ html {
     font-weight: bold;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     z-index: 1;
-    display: flexbox;
     justify-content: space-around;
 }
 @media (min-width: 1200px) {
@@ -58,6 +57,7 @@ html {
 .nav-title {
     margin: auto;
     border: 2px solid red;
+    width: 100%;
 }
 @media (min-width: 1200px) {
     .nav-title {
