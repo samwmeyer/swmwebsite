@@ -48,7 +48,7 @@ html {
     display: flexbox;
     justify-content: space-around;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .nav-bar {
         display: flex;
         font-weight: normal;
@@ -60,7 +60,7 @@ html {
     transition: 0.5s;
     margin: auto;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .nav-title {
         font-size: 300%;
         margin: 0;
@@ -80,7 +80,7 @@ html {
     margin: auto;
     margin-right: 0;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .nav-links {
         font-size: x-large;
         width: 60%;
@@ -106,7 +106,7 @@ html {
     width: 100%;
     margin: auto;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .home-page-content {
         display: flex;
     }
@@ -136,7 +136,7 @@ html {
 .left-column {
     display: none;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .left-column {
         display: inline;
         width: 46%;
@@ -176,7 +176,7 @@ html {
     text-align: center;
     margin: auto;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .right-column {
         width: 40%;
     }
@@ -200,7 +200,7 @@ html {
     font-weight: bold;
     color: darkslategray;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .mobile-column {
         display: none;
     }
@@ -253,7 +253,7 @@ html {
     margin: auto;
     margin-top: 26px;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .next-images {
         width: 80%;
     }
@@ -283,7 +283,7 @@ html {
 #d2b {
     display: none;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     
     #cats {
         display: inline;
@@ -325,7 +325,7 @@ html {
     font-size: large;
     text-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.2);
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .show-text {
         font-size: x-large;
     }
@@ -392,7 +392,7 @@ html {
     color: lightgrey;
     display: inline-block;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .label {
         font-size: large;
         padding: 20px;
@@ -511,7 +511,7 @@ html {
     width: 100%;
     margin: auto;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .songs {
         display: flex;
         justify-content: space-evenly;
