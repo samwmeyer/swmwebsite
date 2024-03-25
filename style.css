@@ -59,6 +59,7 @@ html {
     margin: auto;
     border: 2px solid pink;
     width: 100%;
+    font-size: x-large;
 }
 @media (min-width: 1200px) {
     .nav-title {
@@ -92,7 +93,7 @@ html {
     color: lightblue;
     text-decoration: none;
     transition: 0.5s;
-    margin: 0 26px;
+    margin: 0 22px;
 }
 .nav-links a:hover {
     color: white;
