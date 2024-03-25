@@ -91,7 +91,7 @@ html {
     color: lightblue;
     text-decoration: none;
     transition: 0.5s;
-    margin: 0 6px;
+    margin: 0 10px;
 }
 .nav-links a:hover {
     color: white;
@@ -189,10 +189,11 @@ html {
 }
 .mobile-column {
     width: 46%;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
+    font-size: larger;
     color: darkslategray;
 }
 @media (min-width: 1200px) {
@@ -526,7 +527,7 @@ audio::-webkit-media-controls-panel {
     background-color: lightskyblue;
 }
 .song-description {
-    margin-top: 10px;
+    margin: 10px;
 }
 
 /*------------------------------------------FOOTER----------------------------------------------------------*/
