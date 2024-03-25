@@ -556,6 +556,10 @@ audio::-webkit-media-controls-panel {
 .footer li {
     transition: 0.5s;
 }
+.footer a {
+    text-decoration: none;
+    color: lightgray;
+}
 .footer li:hover {
-    font-size: 140%;
+    font-size: 110%;
 }
