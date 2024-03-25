@@ -102,7 +102,7 @@ html {
 .home-page-content {
     display: flexbox;
     justify-content: space-evenly;
-    padding-top: 82px;
+    padding-top: 93px;
     width: 100%;
     margin: auto;
 }
@@ -110,13 +110,6 @@ html {
     .home-page-content {
         display: flex;
     }
-}
-.left-column {
-    width: 46%;
-    text-align: center;
-    font-family: 'penna';
-    height: auto;
-    color: darkslategray;
 }
 .bottom-traits {
     margin-bottom: 50px;
@@ -143,6 +136,7 @@ html {
         text-align: center;
         font-family: 'penna';
         padding-top: 180px;
+        margin-left: 60px;
         color: darkslategray;
     }
 }
@@ -335,7 +329,7 @@ html {
 
 .headshotresume {
     margin-bottom: 20px;
-    padding-top: 65px;
+    padding-top: 60px;
     font-family: 'avenirlight';
     text-align: center;
     color: lightgrey;
@@ -473,7 +467,7 @@ html {
     background-color: rgba(250, 250, 210, 0.4);
     padding: 16px 0;
     margin: 20px 0;
-    margin-top: 80px;
+    
     color: black;
     box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
 }
@@ -483,6 +477,7 @@ html {
     font-size: large;
     width: 100%;
     margin: auto;
+    padding-top: 72px;
     border-radius: 4px;
 }
 
