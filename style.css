@@ -45,18 +45,18 @@ html {
     font-weight: bold;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     z-index: 1;
-    justify-content: space-around;
 }
 @media (min-width: 1200px) {
     .nav-bar {
         display: flex;
         font-weight: normal;
         padding: 19px 26px;
+        justify-content: space-around;
     }
 }
 .nav-title {
     margin: auto;
-    border: 2px solid green;
+    border: 2px solid yellow;
     width: 100%;
 }
 @media (min-width: 1200px) {
@@ -91,7 +91,7 @@ html {
     color: lightblue;
     text-decoration: none;
     transition: 0.5s;
-    margin: 0 10px;
+    margin: 0 26px;
 }
 .nav-links a:hover {
     color: white;
@@ -188,17 +188,22 @@ html {
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
 }
 .mobile-column {
-    width: 46%;
+    width: 80%;
     margin: 20px auto;
-    margin-bottom: 100px;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
     font-size: x-large;
     color: darkslategray;
 }
+.mobile-column-2 {
+    margin-bottom: 60px;
+}
 @media (min-width: 1200px) {
     .mobile-column {
+        display: none;
+    }
+    .mobile-column-2 {
         display: none;
     }
 }
