@@ -45,6 +45,7 @@ html {
     font-weight: bold;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     z-index: 1;
+    justify-content: center;
 }
 @media (min-width: 1200px) {
     .nav-bar {
@@ -56,7 +57,7 @@ html {
 }
 .nav-title {
     margin: auto;
-    border: 2px solid yellow;
+    border: 2px solid pink;
     width: 100%;
 }
 @media (min-width: 1200px) {
@@ -64,7 +65,7 @@ html {
         font-size: 300%;
         margin: 0;
         transition: 0.5s;
-        width: 40%;
+        width: 28%;
     }
 }
 .nav-title:hover {
@@ -189,7 +190,7 @@ html {
 }
 .mobile-column {
     width: 80%;
-    margin: 20px auto;
+    margin: 12px auto;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
@@ -197,7 +198,7 @@ html {
     color: darkslategray;
 }
 .mobile-column-2 {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 @media (min-width: 1200px) {
     .mobile-column {
