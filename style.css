@@ -180,18 +180,19 @@ html {
     font-size: 300%;
 }
 .right-column {
-    width: 80%;
     text-align: center;
     margin: auto;
 }
 @media (min-width: 1200px) {
     .right-column {
+        margin: none;
         width: 40%;
+        text-align: end;
     }
 }
 .home-pic {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
-    width: 96.4%;
+    width: 94.2%;
 }
 #epic-company-pic {
     width: 100%;
