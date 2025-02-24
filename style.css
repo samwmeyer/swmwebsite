@@ -278,6 +278,10 @@ html {
     display: flex;
     justify-content: space-between;
 }
+.anythinggoestrailer {
+    max-width: 96%;
+    margin-top: 20px;
+}
 #cats {
     display: none;
 }
