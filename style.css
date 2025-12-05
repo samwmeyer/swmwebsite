@@ -224,20 +224,21 @@ html {
 
 /*------------------------------------------ABOUT----------------------------------------------------------*/
 #about-me-title {
-    font-size: 400%;
+    font-size: 340%;
     font-family: 'penna';
-
+    font-weight: bold;
 }
 .about-page {
     text-align: center;
     font-family: 'avenir-light';
     font-size: large;
-    width: 80%;
-    padding: 0 40px 40px 40px;
+    padding: 120px;
+    padding-top: 140px;
     margin: auto;
-    padding-top: 124px;
-    margin-bottom: -110px;
-    background-color: rgba(250, 250, 210, 0.4);
+    /* margin-bottom: -210px; */
+    background-color: rgba(255, 255, 255, .8);
+    
+
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.32);
     border-radius: 4px;
 }
@@ -245,23 +246,23 @@ html {
 /*------------------------------------------WHAT'S NEXT----------------------------------------------------------*/
 
 #next-title {
-    font-size: 320%;
+    font-size: 340%;
     font-family: 'penna';
     font-weight: bold;
     padding: 16px;
-    background-color: rgba(250, 250, 210, .4);
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
+    
 }
 .next-page {
     text-align: center;
     font-family: 'avenir-light';
     font-size: large;
-    width: 100%;
-    padding-top: 94px;
+    padding: 80px 80px 80px 80px;
     margin: auto;
     margin-top: 120px;
     margin-bottom: 40px;
     border-radius: 4px;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
 }
 .next-images {
     display: flexbox;
@@ -365,7 +366,7 @@ html {
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(250, 250, 210, 0.4);
+    background-color: rgba(255, 255, 255, .8);
     padding: 16px;
     margin: 32px 0;
     color: black;
@@ -374,10 +375,12 @@ html {
 .hr-columns {
     display: flex;
     justify-content: space-evenly;
+    
 }
 .hr-column {
     height: 100%;
     max-width: 28%;
+    
 }
 .headshot {
     height: 100%;
@@ -446,7 +449,7 @@ html {
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(250, 250, 210, 0.4);
+    background-color: rgba(255, 255, 255, .8);
     padding: 16px 0;
     margin: 32px 0;
     color: black;
@@ -490,7 +493,7 @@ html {
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(250, 250, 210, 0.4);
+    background-color: rgba(255, 255, 255, .8);
     padding: 16px 0;
     margin: 20px 0;
     
@@ -514,7 +517,7 @@ html {
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(250, 250, 210, 0.4);
+    background-color: rgba(255, 255, 255, .8);
     padding: 16px 0;
     margin: 32px 0;
     color: black;
