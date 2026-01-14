@@ -314,28 +314,30 @@ html {
     height: 100%;
     width: 100%;
     /* object-fit: contain; */
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.4);
     transition: 0.5s;
     margin-bottom: 20px;
 }
 .headshot:hover {
     transform: scale(1.04);
+    box-shadow: 0 0 20px 6px rgba(173, 216, 230, 0.2);
 }
 .resumes {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.4);
     transition: 0.5s;
     margin-bottom: 20px;
 }
 .resumes:hover {
     transform: scale(1.04);
+    box-shadow: 0 0 20px 6px rgba(173, 216, 230, 0.4);
 }
 .label {
-    background-color: rgba(0, 0, 128, 0.6);
+    background-color: #04045050;
     transition: 0.4s;
-    margin-top: 20px;
+    margin-top: 4px;
     padding: 4px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     text-decoration: none;
@@ -351,11 +353,11 @@ html {
 }
 .label:hover {
     transform: scale(1.02);
-    background-color: rgba(0, 0, 128, 0.8);
+    background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
 }
 .hr-footer {
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: x-large;
     color: lightblue;
 }
@@ -496,6 +498,7 @@ audio::-webkit-media-controls-panel {
     background-image: linear-gradient(#040450, rgba(7, 14, 34)) ;
     text-align: center;
     font-family: 'avenirlight';
+    background-color: transparent;
     
     padding: 60px 0 140px 0 ;
     color: lightblue;
@@ -508,6 +511,7 @@ audio::-webkit-media-controls-panel {
     color: lightblue;
     font-family: 'penna';
     text-shadow: 0 0 12px lightblue;
+    background-color: transparent;
 }
 /* .footer:hover {
     text-shadow: 0 0 20px lightblue;
@@ -516,10 +520,12 @@ audio::-webkit-media-controls-panel {
 .footer li {
     transition: 0.5s;
     font-size: 140%;
+    background-color: transparent;
 }
 .footer a {
     text-decoration: none;
     color: lightblue;
+    background-color: transparent;
 }
 .footer li:hover {
     font-size: 150%;
