@@ -7,9 +7,11 @@
     height: 100%;
     /* height: 100vh; */
     /* background-color: #7499b7a0; */
-    background-color: rgba(000, 118, 237, 0.30);
+    /* background-color: rgba(000, 118, 237, 0.10); */
+    /* background-color: white; */
     /* scroll-snap-type: y mandatory;
     overflow-y: scroll; */
+    background-color: #040450;
 }
 html {
     scroll-behavior: smooth;
@@ -33,14 +35,14 @@ html {
 /*-------------------------------------------NAV BAR---------------------------------------------------*/
 
 .nav-bar {
-    background-image: linear-gradient(rgba(31, 54, 122, 0.98), rgba(31, 54, 122, 0.72)) ;
+    background-image: linear-gradient(rgba(7, 14, 34), #04045099) ;
     color: lightblue;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
     display: flexbox;
     align-items: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); */
     font-family: 'penna';
     font-weight: bold;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
@@ -58,7 +60,7 @@ html {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
     display: flex;
     align-items: center;
     vertical-align: middle;
@@ -66,7 +68,7 @@ html {
 }
 .nav-title {
     /* padding: 10px; */
-    font-size: x-large;
+    font-size: xx-large;
     width: 100%;
     color: lightblue;
     text-decoration: none;
@@ -81,7 +83,6 @@ html {
     }
 }
 .nav-title:hover {
-    color: white;
     font-size: 320%;
 }
 .nav-links {
@@ -104,11 +105,11 @@ html {
     color: lightblue;
     text-decoration: none;
     transition: 0.5s;
+    font-size: 120%;
     margin: 0 22px;
 }
 .nav-links a:hover {
-    color: white;
-    font-size: 110%;
+    font-size: 130%;
 } 
 
 /*--------------------------------------------------HOME PAGE-------------------------------------------*/
@@ -116,7 +117,7 @@ html {
 .home-page-content {
     display: flexbox;
     justify-content: space-evenly;
-    padding-top: 93px;
+    padding-top: 103px;
     width: 100%;
     margin: auto;
 }
@@ -126,7 +127,7 @@ html {
     }
 }
 .bottom-traits {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .left-column a {
     text-decoration: none;
@@ -136,9 +137,9 @@ html {
     font-size: 800%;
     font-weight: bold;
     font-family: 'england';
-    color: rgba(8, 3, 34, 0.73);
+    color: lightblue;
     text-align: center;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+    text-shadow: 0px 0px 12px lightblue;
 }
 .left-column {
     display: none;
@@ -150,33 +151,33 @@ html {
         text-align: center;
         font-family: 'penna';
         padding-top: 180px;
-        margin-left: 60px;
-        color: darkslategray;
+        margin-right: 60px;
+        color: lightblue;
     }
 }
 .home-name-traits-1 {
     text-align: center;
     font-size: 360%;
     font-weight: bold;
-    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, .4);
+    text-shadow: 1.5px 1.5px 4px rgba(25, 2, 77, 0.4);
 }
 .home-name-traits-2 {
     text-align: center;
-    font-size: 280%;
+    font-size: 360%;
     font-weight: bold;
     margin-top: 6px;
-    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, .4);
+    text-shadow: 1.5px 1.5px 4px rgba(25, 2, 77, 0.4);
 }
 .down-arrow {
     text-align: center;
     font-size: 280%;
     margin-top: 100px;
-    color: rgba(1, 1, 52, 0.4);
+    color: lightblue;
     text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, .4);
     transition: 0.4s;
 }
 .down-arrow:hover {
-    color: rgba(1, 1, 52, 0.6) ;
+    color: lightblue;
     font-size: 300%;
 }
 .right-column {
@@ -191,15 +192,15 @@ html {
     }
 }
 .home-pic {
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
-    width: 94.2%;
+    /* box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4); */
+    width: 98%;
 }
 #epic-company-pic {
     width: 100%;
     height: 100%;
     object-fit: contain;
     margin-bottom: -96px;
-    box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 0 0 18px rgba(0, 0, 0, 0.8); */
 }
 .mobile-column {
     width: 80%;
@@ -224,29 +225,30 @@ html {
 
 /*------------------------------------------ABOUT----------------------------------------------------------*/
 #about-me-title {
-    font-size: 340%;
+    font-size: 420%;
     font-family: 'penna';
     font-weight: bold;
+    color: lightblue;
+    text-shadow: 0 0 12px lightblue;
 }
 .about-page {
     text-align: center;
     font-family: 'avenir-light';
     font-size: large;
-    padding: 120px;
     padding-top: 140px;
     margin: auto;
-    /* margin-bottom: -210px; */
-    background-color: rgba(255, 255, 255, .8);
-    
-
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.32);
     border-radius: 4px;
+}
+.about-content {
+    color: lightblue;
+    padding: 80px;
+    padding-top: 10px;
 }
 
 /*------------------------------------------WHAT'S NEXT----------------------------------------------------------*/
 
 #next-title {
-    font-size: 340%;
+    font-size: 420%;
     font-family: 'penna';
     font-weight: bold;
     padding: 16px;
@@ -258,11 +260,12 @@ html {
     font-size: large;
     padding: 80px 80px 80px 80px;
     margin: auto;
-    margin-top: 120px;
     margin-bottom: 40px;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, .8);
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
+    color: lightblue;
+    text-shadow: 0px 0px 12px lightblue;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
 }
 .next-images {
     display: flexbox;
@@ -275,83 +278,6 @@ html {
         width: 80%;
     }
 }
-.catsanythinggoes {
-    display: flex;
-    justify-content: space-between;
-}
-.anythinggoestrailer {
-    max-width: 96%;
-    margin-top: 20px;
-}
-#cats {
-    display: none;
-}
-#anythinggoes {
-    display: none;
-}
-#ufomt {
-    width: 40%;
-}
-#dcpa {
-    width: 48%;
-}
-#dcpa-banner {
-    background-color: white;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
-    align-items: center;
-    justify-content: center;
-}
-#d2b {
-    display: none;
-}
-@media (min-width: 1200px) {
-    
-    #cats {
-        display: inline;
-        min-width: 24%;
-        margin-right: 20px;
-        box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
-    }
-    #anythinggoes {
-        display: inline;
-        min-width: 24%;
-        margin-right: 20px;
-        box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
-    }
-    #d2b {
-        display: inline;
-        max-width: 32%;
-        height: 32%;
-    }
-}
-#hg {
-    max-width: 20%;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
-}
-.captain-eon {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-.eon {
-    margin-top: 18px;
-}
-#ufomt-banner {
-    background-color: black;
-    margin-bottom: 20px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
-}
-.show-text {
-    padding-top: 36px;
-    font-size: large;
-    text-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.2);
-}
-@media (min-width: 1200px) {
-    .show-text {
-        font-size: x-large;
-    }
-}
-
 /*------------------------------------------HEADSHOT & RESUME----------------------------------------------------------*/
 
 .headshotresume {
@@ -359,18 +285,20 @@ html {
     padding-top: 60px;
     font-family: 'avenirlight';
     text-align: center;
-    color: lightgrey;
+    color: lightblue;
+    /* text-shadow: 0px 0px 12px lightblue; */
 }
 .hr-title {
-    font-size: 320%;
+    font-size: 420%;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(255, 255, 254, .8);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     padding: 16px;
     margin: 32px 0;
-    color: black;
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
+    color: lightblue;
+    text-shadow: 0px 0px 12px lightblue;
+    /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
 }
 .hr-columns {
     display: flex;
@@ -385,7 +313,7 @@ html {
 .headshot {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    /* object-fit: contain; */
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.8);
     transition: 0.5s;
     margin-bottom: 20px;
@@ -429,7 +357,7 @@ html {
 .hr-footer {
     margin-top: 40px;
     font-size: x-large;
-    color: rgba(0, 0, 128, 0.2);
+    color: lightblue;
 }
 
 /*------------------------------------------GALLERY----------------------------------------------------------*/
@@ -445,15 +373,16 @@ html {
     border-radius: 4px;
 }
 #gallery-title {
-    font-size: 320%;
+    font-size: 420%;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(255, 255, 255, .8);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     padding: 16px 0;
     margin: 32px 0;
-    color: black;
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
+    color: lightblue;
+    text-shadow: 0 0 12px lightblue;
+    /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
 }
 #all-pics a img {
     max-width: 100%;
@@ -489,16 +418,17 @@ html {
 /*------------------------------------------MEDIA----------------------------------------------------------*/
 
 #media-title {
-    font-size: 320%;
+    font-size: 420%;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(255, 255, 255, .8);
+    /* background-color: rgba(135, 206, 250, 0.5); */
     padding: 16px 0;
     margin: 20px 0;
     
-    color: black;
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
+    color: lightblue;
+    text-shadow: 0 0 12px lightblue;
+    /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
 }
 .media-page {
     text-align: center;
@@ -513,15 +443,16 @@ html {
 /*------------------------------------------MUSIC----------------------------------------------------------*/
 
 #music-title {
-    font-size: 320%;
+    font-size: 420%;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
-    background-color: rgba(255, 255, 255, .8);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     padding: 16px 0;
     margin: 32px 0;
-    color: black;
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4);
+    color: lightblue;
+    text-shadow: 0 0 12px lightblue;
+    /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
 }
 .music-page {
     text-align: center;
@@ -534,12 +465,13 @@ html {
     display: flexbox;
     width: 100%;
     margin: auto;
+    
 }
 @media (min-width: 1200px) {
     .songs {
         display: flex;
         justify-content: space-evenly;
-        padding: 100px 0;
+        /* padding: 100px 0; */
     }
     .music-page {
         margin-bottom: 60px;
@@ -555,35 +487,41 @@ audio::-webkit-media-controls-panel {
 }
 .song-description {
     margin: 30px;
+    color: lightblue;
 }
 
 /*------------------------------------------FOOTER----------------------------------------------------------*/
 
 .footer {
-    background-image: linear-gradient(rgba(31, 54, 122, 0.4), rgba(31, 54, 122, 0.8)) ;
+    background-image: linear-gradient(#040450, rgba(7, 14, 34)) ;
     text-align: center;
     font-family: 'avenirlight';
-    font-size: larger;
-    padding: 60px 0 100px 0 ;
-    color: lightgray;
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    
+    padding: 60px 0 140px 0 ;
+    color: lightblue;
+    /* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5); */
 }
 #footer-title {
     font-size: 420%;
     font-weight: bold;
-    padding: 0;
-    color: lightgray;
+    padding: 0 0 40px 0;
+    color: lightblue;
     font-family: 'penna';
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0 12px lightblue;
 }
+/* .footer:hover {
+    text-shadow: 0 0 20px lightblue;
+    transition: 2s;
+} */
 .footer li {
     transition: 0.5s;
+    font-size: 140%;
 }
 .footer a {
     text-decoration: none;
-    color: lightgray;
+    color: lightblue;
 }
 .footer li:hover {
-    font-size: 110%;
+    font-size: 150%;
+    text-shadow: 0 0 8px lightblue;
 }
