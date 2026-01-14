@@ -150,7 +150,7 @@ html {
         width: 46%;
         text-align: center;
         font-family: 'penna';
-        padding-top: 180px;
+        padding-top: 240px;
         margin-right: 60px;
         color: lightblue;
     }
@@ -159,6 +159,7 @@ html {
     text-align: center;
     font-size: 360%;
     font-weight: bold;
+    margin-top: 20px;
     text-shadow: 1.5px 1.5px 4px rgba(25, 2, 77, 0.4);
 }
 .home-name-traits-2 {
@@ -225,7 +226,7 @@ html {
 
 /*------------------------------------------ABOUT----------------------------------------------------------*/
 #about-me-title {
-    font-size: 420%;
+    font-size: 200%;
     font-family: 'penna';
     font-weight: bold;
     color: lightblue;
@@ -244,11 +245,16 @@ html {
     padding: 80px;
     padding-top: 10px;
 }
+@media (min-width: 1200px) {
+    #about-me-title {
+        font-size: 420%;
+    }
+}
 
 /*------------------------------------------WHAT'S NEXT----------------------------------------------------------*/
 
 #next-title {
-    font-size: 420%;
+    font-size: 200%;
     font-family: 'penna';
     font-weight: bold;
     padding: 16px;
@@ -277,6 +283,9 @@ html {
     .next-images {
         width: 80%;
     }
+    #next-title {
+        font-size: 420%;
+    }
 }
 /*------------------------------------------HEADSHOT & RESUME----------------------------------------------------------*/
 
@@ -288,8 +297,8 @@ html {
     color: lightblue;
     /* text-shadow: 0px 0px 12px lightblue; */
 }
-.hr-title {
-    font-size: 420%;
+#hr-title {
+    font-size: 200%;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
@@ -350,6 +359,9 @@ html {
         font-size: large;
         padding: 20px;
     }
+    #hr-title {
+        font-size: 420%;
+    }
 }
 .label:hover {
     transform: scale(1.02);
@@ -385,6 +397,11 @@ html {
     color: lightblue;
     text-shadow: 0 0 12px lightblue;
     /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
+}
+@media (min-width: 1200px) {
+    .hr-title {
+        font-size: 200%;
+    }
 }
 #all-pics a img {
     max-width: 100%;
@@ -432,6 +449,11 @@ html {
     text-shadow: 0 0 12px lightblue;
     /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.4); */
 }
+@media (min-width: 1200px) {
+    .hr-title {
+        font-size: 200%;
+    }
+}
 .media-page {
     text-align: center;
     font-family: 'avenir-light';
@@ -445,7 +467,7 @@ html {
 /*------------------------------------------MUSIC----------------------------------------------------------*/
 
 #music-title {
-    font-size: 420%;
+    font-size: 200%;
     text-align: center;
     font-family: 'penna';
     font-weight: bold;
@@ -482,6 +504,9 @@ html {
     .song-div {
         width: 30%;
     }
+    #music-title {
+        font-size: 420%;
+    }
 }
 
 audio::-webkit-media-controls-panel {
@@ -503,6 +528,11 @@ audio::-webkit-media-controls-panel {
     padding: 60px 0 140px 0 ;
     color: lightblue;
     /* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5); */
+}
+@media (min-width: 1200px) {
+    .footer-title {
+        font-size: 200%;
+    }
 }
 #footer-title {
     font-size: 420%;
